@@ -152,11 +152,17 @@ section h2 {
 
 .projects img {
     width: 300px;
-    height: 300px;
+    height: 200px;
 }
 
 .projects:hover img {
     transform: scale(1.5);
+}
+
+.projects p {
+    color: aliceblue;
+    text-align: left;
+    font-weight: bold;
 }
 
 /* About section */

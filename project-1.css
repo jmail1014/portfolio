@@ -1,0 +1,186 @@
+/* global */
+* {
+    margin: 0;
+    padding: 0;
+  }
+  h1,
+  h2,
+  h3 {
+    font-family: fantasy;
+    font-weight: lighter;
+  }
+  body {
+    background-color: #000;
+    padding: 0;
+  }
+  main {
+    background-color: #ccc;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    margin-left: 160px;
+    padding: 0px 10px;
+  }
+  /* hero settings */
+  .hero {
+    background-image: url(./img/hero2.jpg);
+    background-repeat: no-repeat;
+    background-position: fixed;
+    background-size: cover;
+    height: 200px;
+    width: 100%;
+    color: #ccc;
+  }
+  .heroText-h1 {
+    text-align: left;
+    margin: 60px 30px 10px;
+  }
+  .heroText-h2 {
+    text-align: left;
+    padding: 0px 100px 10px 100px;
+  }
+  
+  /* sidebar & buttons */
+  .sidebar {
+    height: 100%;
+    width: 160px;
+    position: fixed;
+    top: 20;
+    left: 0;
+    overflow-x: hidden;
+    padding-top: 20px;
+    background-color: #000 !important;
+    color: #ccc;
+  }
+  .sidebar h2 {
+    text-align: center;
+  }
+  .sidebar button {
+    padding: 10px 8px 6px 16px;
+    margin: 1px;
+    font-size: 15px;
+    display: block;
+    text-decoration: none;
+    background-color: transparent;
+    color: #ccc;
+    font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+      "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  }
+  .sidebar button:hover {
+    border: 1px solid #ccc;
+    border-radius: 3px;
+    background-color: #ccc;
+    color: #000;
+  }
+  
+  /* food settings */
+  .foodContainer {
+    text-align: center;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: space-evenly;
+    border-top: 1px solid black;
+    border-bottom: 1px solid black;
+    border-radius: 20px;
+  }
+  
+  #foodGroup {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  #timeGroup {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  Img {
+    border-radius: 20px;
+    width: 30%;
+    padding: 20px;
+    border-radius: 40px;
+  }
+  
+  #food-drink-output {
+    margin-top: 40px;
+  }
+  
+  /* drink container */
+  
+  .drinkContainer {
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    flex-direction: column;
+    border-bottom: 1px solid black;
+    border-top: 1px solid black;
+    border-radius: 20px;
+  }
+  .drinkGroup {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+  }
+  
+  
+  /* modal style area */
+  
+  .modal {
+    display: none;
+    position: fixed;
+    justify-content: center;
+    align-items: flex-start;
+    background-color: rgba(0, 0, 0, 0.5);
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    z-index: 2;
+    padding: 10vh 0;
+  }
+  
+  .modal .modal-container {
+    background-color: #fff;
+    border-radius: 0.25rem;
+    width: 50vw;
+    padding: 2rem;
+    position: relative;
+  }
+  
+  .modal .close-button {
+    font-size: 150%;
+    color: #ccc;
+    background-color: transparent;
+    border: 0;
+    cursor: pointer;
+    position: absolute;
+    top: 0.3rem;
+    right: 0.5rem;
+  }
+  
+  .modal .close-button:hover {
+    color: #000;
+  }
+  
+  /* sidebar */
+  .sidebar {
+    height: 100%;
+    width: 160px;
+    position: fixed;
+    top: 20;
+    left: 0;
+    background-color: #ffff;
+    overflow-x: hidden;
+    padding-top: 20px;
+  }
+  .sidebar button {
+    padding: 10px 8px 6px 16px;
+    margin: 1px;
+    font: size 25px;
+    display: block;
+    text-decoration: none;
+  }
+  
