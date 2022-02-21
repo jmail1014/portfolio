@@ -1,96 +1,147 @@
-<!DOCTYPE html>
-<html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">    
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Sacramento&family=Work+Sans:wght@200&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="./assets/css/style.css">
-    <title>Front-End Developer | In Progress</title>
-</head>
-<body>
-    <header>
+  <!DOCTYPE html>
+  <html lang="en">
+    <head>
+      <meta charset="UTF-8" />
+      <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+      <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+      <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+      <link rel="stylesheet" href="assets/css/style.css" />
+      <link href='https://fonts.googleapis.com/css?family=Open+Sans:300' rel='stylesheet' type='text/css' />
+      <title>JCL | Full Stack Web Developer</title>
+    </head>
+    <body>
+      <!-- Hero -->
+      <section class="et-hero-tabs">
         <h1>Jessica Catherine Long</h1>
-        <h2>Front-End Web Developer</h2>
+        <h3>Full Stack Web Developer | Problem Solver</h3>
+        <div class="et-hero-tabs-container">
+          <a class="et-hero-tab" href="#tab-es6">About</a>
+          <a class="et-hero-tab" href="#tab-flexbox">Projects</a>
+          <a class="et-hero-tab" href="#tab-react">Blog</a>
+          <a class="et-hero-tab" href="#tab-angular">Contact</a>
+          <a class="et-hero-tab" href="#tab-other">Cats</a>
+          <span class="et-hero-tab-slider"></span>
+        </div>
+      </section>
 
-    </header>
-    <nav>
-        <ul>
-            <li><a href="#skills">Skills</a></li>
-            <li><a href="#projects">Projects</a></li>
-            <li><a href="#about">About</a></li>
-            <li><a href="#contact">Contact</a></li>
-        </ul>
-    </nav>
-    <main>
-        <section id="skills">
-            <h2>Skills</h2>
-            <div class="percent-section">
-                <h3>HTML</h3>
-                <div class="skills html">80%</div>
-            </div>
-            <div class="percent-section">
-                <h3>CSS</h3>
-                <div class="skills css">75%</div>
-            </div>
-            <div class="percent-section">
-                <h3>Git</h3>
-                <div class="skills git">70%</div>
-            </div>
-            <div class="percent-section">
-                <h3>Semantic Code</h3>
-                <div class="skills semantic">65%</div>
-            </div>
-            <div class="percent-section">
-                <h3>Responsive Web Design</h3>
-                <div class="skills rwd"> 60%</div>
-            </div>
+      <!-- Main -->
+      <main class="et-main">
+        <section class="et-slide" id="tab-es6">
+          <!-- About -->
+          <h1>About</h1>
+          <h3>hi there!</h3>
         </section>
-        <section id="projects">
-            <h2>Projects</h2>
-            <div class="projects">
-                <h3>Project 1</h3>
-                <p>This was a group project.
-                <br> It utilizes front end languages HTML, CSS, JavaScript, Pure.css, JQuery, and server side APIs</p>
-                <br> <a href="https://github.com/afebre1027/food-drink-app">GitHub Link</a>
-                <a href="./project-1.html" alt="Project 1, coming soon"><img src="assets/img/project-1.png"/></a>
-            </div>
-            <div class="projects">
-                <h3>Project 2</h3>
-                <a href="./project-2.html" alt="Project 2, coming soon"><img/></a>
-            </div>
-            <div class="projects">
-                <h3>Project 3</h3>
-                <a href="./project-3.html" alt="Project 3, coming soon"><img/></a>
-            </div>
-            <div class="projects">
-                <h3>Project 4</h3>
-                <a href="./project-4.html" alt="Project 4, coming soon"><img/></a>
-            </div>
-            </div>
+        <section class="et-slide" id="tab-flexbox">
+          <!-- Projects -->
+          <h1>Projects</h1>
+          <h3>recent & highlighted work</h3>
+          <!-- Project 1 -->
+          <div class="project d-flex flex-column">
+            <h3>Project 1</h3>
+            <p class="p-project">
+              This was a group project. <br />
+              It utilizes front end languages HTML, CSS, JavaScript, Pure.css,
+              JQuery, and server side APIs. As a group we learned how to solve various Git errors and how to successfully work on a team using version control.
+            </p>
+            <br />
+            <a href="https://github.com/afebre1027/food-drink-app"
+              >GitHub Link</a
+            >
+            <a href="https://afebre1027.github.io/food-drink-app/" alt="Project 1"
+              ><img src="assets/img/project-1.png" class="project-img"
+            /></a>
+          </div>
+          <div class="project d-flex flex-column">
+            <div>
+            <h3>Project 2</h3>
+            <p class="p-project">
+            This group project was to create a full stack aplication that utilized: Handlbars.js, Sequelize, Express.js, Express-sessions and Mocha for testing.
+            We created a kanban to help solve a big problem. As a group we struggled to complete this project so it will not sucessfully load through Heroku.   
+            </p>
+            <br />
+            <a href="https://github.com/JosephJoeyJoe/Case-Tracker"
+              >GitHub Link</a
+            ></div>
+            <div>
+            <a href="https://github.com/JosephJoeyJoe/Case-Tracker" alt="Project 2"
+              ><img src="assets/img/project-2.png" class="project-img"
+            /></a>
+          </div>
+          </div>
+        </section>
+        <section class="et-slide" id="tab-react">
+          <!-- Blog -->
+          <h1>Blog</h1>
+          <h3>coming soon</h3>
+        </section>
+        <section class="et-slide" id="tab-angular">
+          <!-- Contact -->
+          <h1>Contact</h1>
+          <h3>have a question or want to connect?</h3>
+          <form>
+            <input
+              type="button"
+              value="Email Me"
+              onClick="parent.location='mailto:j.mail1014@gmail.com.com?subject=Connect with Jessica'"
+            />
+          </form>
+          <div class="social">
+          <ul class="social-set">
+            <li>
+              <a class="socialli" href="https://github.com/jmail1014" target="_blank" aria-label="GitHub">
+                <i class="fa fa-github-square fa-fw" title="GitHub"></i></a>
+            </li>
+            <li>
+              <a class="socialli" href="https://twitter.com/jessica_c_long" target="_blank" aria-label="Twitter">
+                <i class="fa fa-twitter fa-fw" title="Twitter"></i></a></li></a>
+            </li>
+            <li>
+              <a class="socialli" href="https://www.instagram.com/jessicacatherinelong/"
+                target="_blank"aria-label="Instagram">
+                <i class="fa fa-instagram fa-fw" title="Instagram"></i></a>
+            </li>
+            <li>
+              <a href="https://www.linkedin.com/in/jessicaclong/" target="_blank" aria-label="LinkedIn">
+                <i class="fa fa-linkedin fa-fw" title="LinkedIn"></i></a>
+            </li>
+          </ul>
+          </div>
+        </section>
+        <section class="et-slide" id="tab-other">
+          <!-- Cats -->
+          <h1>Cats</h1>
+          <h3>because they make us happy</h3>
 
+          <div
+            class="embedsocial-hashtag"
+            data-ref="e2c50e13ed5675b1d8c595971a40fde9cd1e20e5"
+          >
+            <div class="img-column"></div>
+          </div>
+          <script>
+            (function (d, s, id) {
+              var js;
+              if (d.getElementById(id)) {
+                return;
+              }
+              js = d.createElement(s);
+              js.id = id;
+              js.src = "https://embedsocial.com/cdn/ht.js";
+              d.getElementsByTagName("head")[0].appendChild(js);
+            })(document, "script", "EmbedSocialHashtagScript");
+          </script>
         </section>
-        <section class="about">
-            <h2 id="about">About</h2>
-            <img class="about-pic" src="./assets/img/about-pic.jpg" />
-            <p><span>Hi!</span> my name is Jessica. I am a Front-End Web Developer <strong>in progress</strong>. I love all things front-end. I am currently attending UNC Charlotte's Full-Stack bootcamp to gain all the skills nessesary to better serve the world with web development and design.</p>
-        </section>
-        <section class="contact">
-            <h2 id="contact">Contact</h2>
-            <p> Feel free to reach out if you would like to collaborate or hire me for your next front-end project.</p>
-            <p><a href="mailto:j.mail1014@gmail.com">Email</a></p>
-        </section>
-    </main>
         <footer>
-            <h3>Follow Me</h3>
-            <ul>
-                <li><a href="https://github.com/jmail1014" target="blank">GitHub</a></li>
-                <li><a href="https://twitter.com/jessica_c_long" target="blank">Twitter</a></li>
-                <li><a href="https://www.instagram.com/jessicacatherinelong/" target="blank">Instagram</a></li>
-                <li><a href="https://www.linkedin.com/in/jessicaclong/" target="blank">Linkedin</a></li>
-            </ul>
+          <a href="#" class="go-top">Top</a>
         </footer>
-</body>
-</html>
+      </main>
+      <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+      <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
+      <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+      <script src="assets/js/script.js"></script>
+    </body>
+  </html>
+</head>
