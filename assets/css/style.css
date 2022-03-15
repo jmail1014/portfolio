@@ -224,4 +224,20 @@ a.sociali:focus {
   .et-hero-tab {
     font-size: 1rem;
   }
+
+  .project {
+    font-size: 1rem;
+  }
+
+  .about {
+    font-size: 1rem;
+  }
+
+  p {
+    font-size: 1rem;
+  }
+
+  img {
+    width: 30px;
+  }
 }
