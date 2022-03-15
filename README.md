@@ -1,5 +1,4 @@
 # Portfolio 
-## Challenge 2: Advanced CSS
 
 ### Purpose
 
@@ -13,6 +12,14 @@ Created with HTML and CSS to display skills of advanced css knowledge and sample
 - Each project connects to another page in the site. 
 - Email "follow" links are connected to their respective website and email. 
 
-### Github Pages 
+## Technologies used:
+- HTML
+- Responsive CSS
+- JavaScript
+
+## Screenshot:
+![portfolio](https://user-images.githubusercontent.com/45181939/158445961-db689b56-7e08-436d-987e-5da98d04f67b.png)
+
+### Deployed application 
 
 https://jmail1014.github.io/portfolio/
